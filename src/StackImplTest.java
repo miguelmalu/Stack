@@ -21,10 +21,9 @@ public class StackImplTest {
         }
         catch (EmptyStackException empty) {
             empty.printStackTrace();
-            //
         }
         catch (FullStackException full) {
-            //
+            full.printStackTrace();
         }
         finally {
             //
